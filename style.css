@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #ff8f0e25;
+    background-color: #FF900E1A;
     margin: 0;
     padding: 20px 240px 20px 228px;
 }
@@ -37,3 +37,49 @@
 }
 
 /* hero sectopn */
+
+.hero-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF900E1A;
+    padding-bottom: 45px;
+}
+.hero-main .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 116px;
+}
+.content h1 {
+    font-size: 64px;
+    font-weight: bold;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.content p {
+    font-size: 18px;
+    color: #727272;
+    width: 866px;
+    margin-bottom: 32px;
+}
+.content button {
+    background-color: #FF900E;
+    padding: 20px 25px;
+    width: 180px;
+    border: 0px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.hero-img img {
+    width: 1440px;
+    margin-top: 50px;
+}
+
+/* Quick list of Our Features */
