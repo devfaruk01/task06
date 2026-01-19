@@ -221,6 +221,9 @@
 
 /* Some Facts */
 
+.facts-main .content {
+    padding-left: 240px;
+}
 .facts-main .content h3 {
     font-size: 45px;
     font-weight: bold;
@@ -230,11 +233,12 @@
     font-size: 16px;
     color: #727272;
     margin-top: 24px;
+    width: 542px;
 }
 .facts-main .progres {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 .facts-main .progres .box {
     padding: 45px 40px 59px 40px;
@@ -256,3 +260,41 @@
 }
 
 /* Our Sponspors Footer  */
+
+.sponspors-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 180px;
+}
+.sponspors-main .text {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sponspors-main .text h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+.sponspors-main .text p {
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+    width: 542px;
+}
+.sponspors-main .sponspors-logo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 130px;
+}
+
+/* All rights reserved copyright */
+
