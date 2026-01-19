@@ -1,0 +1,39 @@
+@font-face {
+    font-family: myFont;
+    src: url(./WorkSans-Regular.ttf);
+}
+* {
+    font-family: myFont;
+    margin: 0;
+}
+.header-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ff8f0e25;
+    margin: 0;
+    padding: 20px 240px 20px 228px;
+}
+.logo h2 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+.menu nav ul {
+    display: flex;
+    text-align: center;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-left: 50px;
+
+}
+.menu ul li {
+    display: flex;
+}
+
+/* hero sectopn */
