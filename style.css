@@ -8,7 +8,7 @@
 }
 .header-main {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #FF900E1A;
     margin: 0;
@@ -66,7 +66,7 @@
     width: 866px;
     margin-bottom: 32px;
 }
-.content button {
+.btn {
     background-color: #FF900E;
     padding: 20px 25px;
     width: 180px;
@@ -87,6 +87,47 @@
 .quick-main {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    margin-bottom: 200px;
+    align-items: center;
+    padding-top: 130px;
 }
+.grid-img {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+
+}
+.grid-img  img {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    padding: 0%;
+}
+.containt {
+    padding-left: 73px;
+}
+.containt h2 {
+    font-size: 45px;
+    width: 400px;
+    margin-bottom: 24px;
+}
+.containt .text01 {
+    color: #727272;
+    font-weight: 500;
+}
+.containt .text02 {
+    color: #131313;
+    font-weight: bold;
+}
+.containt .text03 {
+    color: #FF900E;
+    font-weight: bold;
+}
+.containt p {
+    font-size: 16px;
+    color: #727272;
+    width: 537px;
+    margin-bottom: 32px;
+}
+
+/* Features you will love & enjoy */
+
