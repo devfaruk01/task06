@@ -218,3 +218,41 @@
     padding: 0px 0px 80px 96px;
     margin-left: 54px;
 }
+
+/* Some Facts */
+
+.facts-main .content h3 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #131313;
+}
+.facts-main .content p {
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+.facts-main .progres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.facts-main .progres .box {
+    padding: 45px 40px 59px 40px;
+    border: 2px solid #FF900E;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.facts-main .progres .box h3 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #424242;
+}
+.facts-main .progres .box h6 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #727272;
+}
+
+/* Our Sponspors Footer  */
